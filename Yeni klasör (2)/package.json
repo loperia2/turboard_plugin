@@ -1,0 +1,18 @@
+{
+  "name": "guney",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "dependencies": {
+    "@sideex/api": "^0.9.5",
+    "browserify": "^17.0.0",
+    "sideex-api": "^0.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "browserify demo.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

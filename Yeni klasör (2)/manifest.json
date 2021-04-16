@@ -1,0 +1,26 @@
+{
+	"manifest_version":2,
+	"name":"Deneme",
+	"Description":"deneme",
+	"version":"1.0",
+	"icons":{
+		"128":"icon128.png",
+		"48":"icon48.png",
+		"16":"icon16.png"
+	},
+	"browser_action":{
+		"default_icon":"icon16.png"
+	},
+	"permissions":[
+		"activeTab",
+		"https://ajax.googleapis.com/"
+
+	],
+	"content_scripts":[
+		{
+			"matches":["http://*/*","https://*/*"],
+			"js":["jquery-3.6.0.min.js","bundle.js"]
+		}
+	]
+
+}
